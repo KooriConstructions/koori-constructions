@@ -1,0 +1,83 @@
+name: Friday Recipe Miner
+
+on:
+  schedule:
+    # 5pm AEST Fri = 7am UTC Fri
+    - cron: '0 7 * * 5'
+  workflow_dispatch:
+
+jobs:
+  recipe-miner:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GRAPH_TOKEN: ${{ secrets.GRAPH_TOKEN }}
+      REPO_ROOT: ${{ github.workspace }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install anthropic msal requests openpyxl
+
+      - name: Create cloud directory if missing
+        run: |
+          mkdir -p cloud
+          touch cloud/recipe-miner-state.json
+          if [ ! -f cloud/recipe-miner-state.json ] || [ ! -s cloud/recipe-miner-state.json ]; then
+            echo '{"mined_jobs":[],"last_run":"2026-06-25T00:00:00Z"}' > cloud/recipe-miner-state.json
+          fi
+
+      - name: Run recipe miner (Friday 5pm AEST)
+        run: |
+          python cloud/koori_recipe_miner.py
+
+      - name: Update cost tracking
+        run: |
+          python -c "
+import json
+import os
+from datetime import datetime
+
+state_path = os.path.join(os.environ['REPO_ROOT'], 'cloud', 'daily-build-state.json')
+try:
+    with open(state_path, 'r') as f:
+        state = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError):
+    state = {'month': datetime.now().strftime('%Y-%m'), 'spend_usd': 0.0, 'runs': []}
+
+# Log this run (~\$0.50 for recipe miner)
+run_entry = {
+    'timestamp': datetime.utcnow().isoformat() + 'Z',
+    'task': 'recipe-miner',
+    'model': 'claude-haiku-4-5-20251001',
+    'status': 'completed'
+}
+state['runs'].append(run_entry)
+state['spend_usd'] = round(state['spend_usd'] + 0.50, 4)
+
+with open(state_path, 'w') as f:
+    json.dump(state, f, indent=2)
+          "
+
+      - name: Commit state
+        run: |
+          git config user.name "Koori Cloud Runner"
+          git config user.email "cloud@kooriconstructions.com.au"
+          git add cloud/recipe-miner-state.json cloud/daily-build-state.json
+          git commit -m "Recipe miner: $(date -u +%Y-%m-%d)" || echo "No changes to commit"
+          git push
+
+      - name: Report
+        if: always()
+        run: |
+          echo "Recipe miner completed at $(date -u)"
+          cat cloud/recipe-miner-state.json
