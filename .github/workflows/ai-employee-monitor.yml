@@ -1,0 +1,55 @@
+name: AI Employee Monitor
+
+# Watches every autonomous worker daily and fails (goes red in the Actions tab)
+# the moment one is a skeleton, stale, or dead. This is the "make sure they're
+# actually producing output" heartbeat — it needs no secrets and no external
+# services, so it runs even when the workers it watches cannot.
+
+on:
+  schedule:
+    # 06:30 AEST daily = 20:30 UTC previous day
+    - cron: '30 20 * * *'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    env:
+      REPO_ROOT: ${{ github.workspace }}
+      STALE_GRACE_DAYS: '1'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run AI-employee monitor
+        id: monitor
+        # Do not stop the job on unhealthy fleet — capture the code so we can
+        # still commit the status file, then fail the job at the end.
+        run: |
+          set +e
+          python cloud/ai_employee_monitor.py
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Commit monitor status
+        if: always()
+        run: |
+          git config user.name "Koori Cloud Runner"
+          git config user.email "cloud@kooriconstructions.com.au"
+          git add cloud/monitor-status.json || true
+          git commit -m "Monitor status: $(date -u +%Y-%m-%d)" || echo "No status change to commit"
+          git push || echo "Nothing to push"
+
+      - name: Fail run if any employee is unhealthy
+        if: always()
+        run: |
+          if [ "${{ steps.monitor.outputs.exit_code }}" != "0" ]; then
+            echo "::error::One or more AI employees are unhealthy — see the monitor output above."
+            exit 1
+          fi
+          echo "All AI employees healthy."

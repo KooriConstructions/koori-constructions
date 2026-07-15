@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-07-15T20:20:53.788175+00:00",
+  "fleet_size": 1,
+  "healthy": 0,
+  "employees": [
+    {
+      "id": "recipe-miner",
+      "name": "Friday Recipe Miner",
+      "role": "Mines Invoiced jobs into KRV0 recipes + KCI0 catalogue, drafts to Brad",
+      "status": "SKELETON",
+      "healthy": false,
+      "last_run": "2026-06-25T00:00:00+00:00",
+      "produced_output": false,
+      "cadence_days": 7,
+      "issues": [
+        "source is a skeleton (29 TODO/stub markers) \u2014 cannot produce real output",
+        "state shows zero output ever produced",
+        "last output 20d ago \u2014 overdue (expected every 7d)"
+      ]
+    }
+  ]
+}
