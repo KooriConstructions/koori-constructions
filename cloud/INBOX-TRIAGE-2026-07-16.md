@@ -165,9 +165,13 @@ actions (or set Outlook rules to auto-file):
 ## 💰 Accepted quotes needing deposit invoices / next step (money on the table)
 - **Awabakal Medical Centre vinyl (Q10935)** — accepted (see Batch 1, deposit due).
 - **Natsuko — Q1167 Deck & Pergola** — quote digitally signed/accepted (Buildxact). Raise deposit + schedule.
-- **"Quote – ensuite – West Wallsend"** — ACCEPTED (terryanne71@outlook.com). Raise deposit, book in.
-- **"Quote – Deck Wyee"** — ACCEPTED (dani.frazer@frazerhansen.com.au). Raise deposit, book in.
 - **Tori Burns — Q1139 Bathroom** — quote sent; chase for decision.
+
+> ⚠️ **Correction (per Brad):** "**Accepted: Quote – ensuite – West Wallsend**" (terryanne71)
+> and "**Accepted: Quote – Deck Wyee**" (dani.frazer) are **calendar RSVPs** — the client
+> accepted the *quote/site-visit appointment*, NOT the price. So they're **booked quote
+> visits to attend**, not deposits to raise. The engine classifier has been fixed to tell
+> calendar RSVPs apart from real acceptances (Buildxact-signed / written "accepted").
 
 ## 🏗️ New opportunities / quotes to prepare (unactioned)
 - **Awabakal — Glendale preschool floor plans** — Donna Smith (dsmith@awabakal.org, GM Preschools, 0403 717 209): "plans attached, call me anytime." Warm repeat client — reply + quote.
@@ -198,6 +202,37 @@ the full tail once activated; I can also keep hand-triaging deeper on request.
 > Hi Donna, thanks for sending the Glendale plans through. I'll review them and come back
 > to you with any questions and a quote shortly — I'll give you a call this week too.
 > Thanks, Brad Robinson · Koori Constructions
+
+# BATCH 3 — deeper triage (13 Jul, ~200 of 957 covered)
+
+## 🏗️ New leads / quotes to prepare (no reply sent yet)
+- **Bindelong Corp — Ashley (bindelongcorp@gmail.com, 0432 399 657)** — RFQ: internal walls
+  + powerpoints at their work depot/office, **Boolaroo**. Commercial. Reply + quote.
+- **James Ahoy (bubbajra@yahoo.com.au, 0407 470 965)** — quote/site inspection: extra room +
+  ensuite + open-plan living/kitchen **extension**. Reply + book inspection.
+- **Katie Carlisle (katie.carlisle13@gmail.com)** — "Plans for 7 Quinton Close" attached (deck
+  done; pool later). Reply + quote from plans.
+- **Stratco lead #205005** — new allocated lead; ACCEPT in Stratco portal + action.
+
+## 🔧 Supplier questions needing your answer (jobs in motion)
+- **Green Point (11 Rembrae) windows** — Bradnams (Belinda Wake) needs to know **which window
+  to cancel** (900×850 or 860×610) to hold the **29/7** delivery. Answer to avoid slippage.
+- **Central Coast Bricks** — offered Hampshire (Red) / Kent (Cream) as closest match for
+  Green Point; confirm quantity + colour to order.
+
+## 💵 FYI / flags
+- **Anthropic API cap** — threshold alerts escalating ($1,000 → $1,100 → $1,400), API paused
+  each time. This is throttling the fleet/automations repeatedly. Raise the cap.
+- **Aussie Home Loans (Lucy Witchalls)** — borrowing-capacity update (~$466k OO / $550k inv).
+  Personal finance thread; reply when you're ready.
+- **WIN/The Block TV commercial** — Kelly Gamblin; Bart (sales) to call you. No action yet.
+
+## Coverage
+Triaged **~200 of 957** (back to ~13 Jul 00:00). Remaining ~757 are, on a consistent read,
+the three noise buckets (JARVIS digests, QA-test self-leads `KC-2026-…`, marketing) plus
+occasional client mail. Will keep going in passes until the admin is live.
+
+---
 
 ### Draft 8 — Tayla / Q1136 (measurements)
 > To: yourgirltayla@gmail.com

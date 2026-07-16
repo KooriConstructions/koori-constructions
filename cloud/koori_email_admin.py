@@ -63,6 +63,20 @@ SUSPICIOUS_MARKERS = re.compile(
     re.IGNORECASE,
 )
 
+# Calendar responses ("Accepted:/Declined:/Tentative:/Canceled:" prefix) are meeting
+# RSVPs — NOT a customer accepting a quote/price. Treat as calendar, never a draft.
+# (Correction 2026-07-16: "Accepted: Quote - ..." is a booking RSVP, not a sale.)
+CALENDAR_RSVP = re.compile(r"^\s*(Accepted|Declined|Tentative|Cancell?ed):", re.IGNORECASE)
+
+# Self-generated / system noise: NDRs, the site's own quote-lead + confirmation emails,
+# JARVIS fleet digests, QS-3 scans, SharePoint list dumps. Never a draft; suppress.
+SYSTEM_NOISE = re.compile(
+    r"^\s*(Undeliverable|Delivery has failed)|New Quote Lead — KC-|"
+    r"Your Koori Constructions Quote Request|\[JARVIS\]|QS-3 nightly|"
+    r"Renewals expiring in next",
+    re.IGNORECASE,
+)
+
 
 def classify(email: Dict) -> Dict:
     """
@@ -74,6 +88,15 @@ def classify(email: Dict) -> Dict:
     subject = email.get("subject") or ""
     preview = email.get("body_preview") or ""
     blob = f"{subject} {preview}"
+
+    # System/self-generated noise and calendar RSVPs are checked FIRST — they must never
+    # be mistaken for a client reply or a quote acceptance.
+    if SYSTEM_NOISE.search(subject):
+        return {"category": "system", "priority": "low",
+                "reason": "self-generated / system notice → file to System, no reply"}
+    if CALENDAR_RSVP.search(subject):
+        return {"category": "calendar", "priority": "low",
+                "reason": "calendar RSVP (meeting accept/decline) — a booking, NOT a quote acceptance"}
 
     if SUSPICIOUS_MARKERS.search(blob):
         return {"category": "suspicious", "priority": "review",
