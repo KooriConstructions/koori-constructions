@@ -126,7 +126,7 @@ records; two items only Brad can attach are marked [ATTACH]._
 > • **Business address:** 11 Brookfield Cl, Jilliby NSW 2259  _(confirm this is the address you want on file)_
 > • **Public Liability:** certificate attached (Policy SPD014852046)
 > • **Owner's driver's licence:** attached
-> • **Bank account for invoicing:** [account name / BSB / account no.]
+> • **Bank account for invoicing:** Koori Constructions Pty Ltd · BSB 067-873 · Acct 1398 1227
 >
 > I'll contact the tenant, Megan Cain (0432 140 315), today to arrange a look at the
 > privacy screens at 17 Menindee Ave and get a quote back to you shortly.
@@ -134,10 +134,15 @@ records; two items only Brad can attach are marked [ATTACH]._
 > Looking forward to working together.
 > Brad Robinson · Director · Koori Constructions Pty Ltd · 0448 368 354
 >
-> **Attach before sending:**
-> 1. `01_Company/Insurance-Certificates-of-Currency/Public Liability Insurance.pdf` ✅ (located)
-> 2. Brad's **driver's licence** — [ATTACH, personal doc]
-> 3. **Bank details** — fill the bracket above or attach a remittance/bank-detail slip [ATTACH]
+> **Attach before sending (2 files):**
+> 1. **Public Liability Insurance** — new copy Brad supplied (save to SharePoint
+>    `01_Company/Insurance-Certificates-of-Currency/`, then attach).
+> 2. **Driver's licence** — the card photo Brad supplied (this is the "owner's driver's
+>    licence" Tabatha asked for; save to the company licences folder, then attach).
+>
+> _All text details above are now complete (bank details included). The only reason this
+> isn't already in your Drafts with both files attached: the Outlook/SharePoint connector
+> here is read-only — no upload/draft/attach. Wire write access (#2) and I do this end-to-end._
 
 ### Draft 5 — Michelle / Mallabula
 > To: shelchis@bigpond.net.au
