@@ -18,12 +18,21 @@
 4. **No health signal** — until the monitor added here, nothing reported a dead employee,
    so hollow digests read as success.
 
-## What I need to actually fix it (can't from this repo alone)
-**Where does JARVIS run?** Its 8 employees aren't in `koori-constructions`. To repair them I
-need one of:
-- the repo/environment that hosts the JARVIS fleet (add it to this session), or
-- confirmation that the fleet SHOULD be rebuilt here (then I build real employees on the
-  monitor + email-admin foundation already committed).
+## Where JARVIS runs (investigated 2026-07-16)
+- **Not a GitHub repo.** The KooriConstructions GitHub org has **exactly one** repo —
+  `koori-constructions` (this one). There is no `jarvis` repo to add.
+- Strong signal it runs via **Cowork** (claude.ai): SharePoint holds
+  `Handoff/Koori-Master-Handoff.md` — "the single source-of-truth for any Claude / Cowork
+  session" — plus a `_Cowork-Archive/` tree of daily briefs. The fleet is almost certainly
+  **Cowork sessions/agents defined by that handoff + SharePoint**, not committed code.
+
+## What I need to actually fix it
+1. **Read `Koori-Master-Handoff.md`** (the fleet's operating doc) — I can do this next; it
+   likely names the 8 employees and how JARVIS orchestrates them.
+2. Then either: point the monitor at those employees' real outputs, or rebuild them as real
+   scheduled workers on the monitor + email-admin foundation already committed here.
+3. Confirm from Brad: is JARVIS a **Cowork** setup, a script on a **server/PC**, or something
+   else? That determines where the fix lands.
 
 ## Plan (once the above is answered)
 1. Raise the API cap (Brad) — unblocks everything.

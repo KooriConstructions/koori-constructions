@@ -107,17 +107,37 @@ bank details. PLUS an immediate job: privacy screens at **17 Menindee Ave, Blue 
 > Thanks,
 > Brad Robinson · Koori Constructions · 0448 368 354
 
-### Draft 4 — Ray White / Darkinjung (Tabatha)
-> To: tabatha.buist@raywhite.com
-> Subject: RE: Quote request — 17 Menindee Ave, Blue Haven + preferred contractor onboarding
+### Draft 4 — Ray White / Darkinjung (Tabatha) — FINALISED with her requested details
+_Cross-checked Sent: no reply exists → genuinely outstanding. Details filled from company
+records; two items only Brad can attach are marked [ATTACH]._
+> **To:** tabatha.buist@raywhite.com
+> **Subject:** RE: Quote request - 17 Menindee Avenue, Blue Haven NSW 2262
 >
 > Hi Tabatha,
-> Thanks — we'd be glad to come on as preferred contractor for the Darkinjung portfolio.
-> I've attached our Public Liability certificate, ABN, business address, my driver's
-> licence and bank details for invoicing [ATTACH]. I'll contact the tenant Megan Cain
-> today about the privacy screens at 17 Menindee Ave and get a quote to you shortly.
+>
+> Thank you — we'd be glad to come on board as your preferred contractor for the
+> Darkinjung Aboriginal Land Council portfolio. We're 100% Aboriginal-owned and this is
+> exactly the kind of work we love to do.
+>
+> Here are our details for your system:
+> • **Business name:** Koori Constructions Pty Ltd
+> • **ABN:** 85 680 349 571
+> • **NSW Builder Licence:** 477499C (Builder — Contractor)
+> • **Business address:** 11 Brookfield Cl, Jilliby NSW 2259  _(confirm this is the address you want on file)_
+> • **Public Liability:** certificate attached (Policy SPD014852046)
+> • **Owner's driver's licence:** attached
+> • **Bank account for invoicing:** [account name / BSB / account no.]
+>
+> I'll contact the tenant, Megan Cain (0432 140 315), today to arrange a look at the
+> privacy screens at 17 Menindee Ave and get a quote back to you shortly.
+>
 > Looking forward to working together.
-> Brad Robinson · Director · Koori Constructions
+> Brad Robinson · Director · Koori Constructions Pty Ltd · 0448 368 354
+>
+> **Attach before sending:**
+> 1. `01_Company/Insurance-Certificates-of-Currency/Public Liability Insurance.pdf` ✅ (located)
+> 2. Brad's **driver's licence** — [ATTACH, personal doc]
+> 3. **Bank details** — fill the bracket above or attach a remittance/bank-detail slip [ATTACH]
 
 ### Draft 5 — Michelle / Mallabula
 > To: shelchis@bigpond.net.au
@@ -214,11 +234,16 @@ the full tail once activated; I can also keep hand-triaging deeper on request.
   done; pool later). Reply + quote from plans.
 - **Stratco lead #205005** — new allocated lead; ACCEPT in Stratco portal + action.
 
-## 🔧 Supplier questions needing your answer (jobs in motion)
-- **Green Point (11 Rembrae) windows** — Bradnams (Belinda Wake) needs to know **which window
-  to cancel** (900×850 or 860×610) to hold the **29/7** delivery. Answer to avoid slippage.
+## 🔧 Supplier questions (cross-checked against Sent)
+- ~~Green Point windows — which to cancel?~~ **✅ ALREADY REPLIED** (Brad, 13 Jul: "cancel the
+  850×900mm window"). No action — corrected after Sent cross-reference.
 - **Central Coast Bricks** — offered Hampshire (Red) / Kent (Cream) as closest match for
-  Green Point; confirm quantity + colour to order.
+  Green Point; confirm quantity + colour to order. _(verify against Sent before drafting)_
+
+> **Reply-status rule now applied:** every item is cross-checked against the Sent folder
+> before it's flagged as "needs reply", so no duplicate/flooding drafts. Confirmed
+> unanswered this pass: Tabatha (Menindee), On Time Blinds (screen width), Bindelong,
+> James Ahoy, Katie Carlisle (7 Quinton).
 
 ## 💵 FYI / flags
 - **Anthropic API cap** — threshold alerts escalating ($1,000 → $1,100 → $1,400), API paused
