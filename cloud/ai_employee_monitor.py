@@ -48,6 +48,17 @@ EMPLOYEES: List[Dict] = [
         "output_ts_key": "last_run",       # ISO timestamp of last real run
         "workflow": ".github/workflows/friday-recipe-miner.yml",
     },
+    {
+        "id": "email-admin",
+        "name": "Email Admin (inbox triage + draft)",
+        "role": "Reads every incoming email, drafts replies for human-needed mail, flags bills/compliance, lists marketing to unsubscribe",
+        "cadence_days": 1,
+        "source": "cloud/koori_email_admin.py",
+        "state": "cloud/email-admin-state.json",
+        "output_key": "drafted",
+        "output_ts_key": "checked_at",
+        "workflow": "(Zapier real-time + scheduled digest — activation pending Graph Mail.ReadWrite)",
+    },
 ]
 
 # A worker is SKELETON if its source still carries this many unfinished markers.

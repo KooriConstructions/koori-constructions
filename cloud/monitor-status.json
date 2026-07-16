@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-07-15T20:20:53.788175+00:00",
-  "fleet_size": 1,
+  "checked_at": "2026-07-16T05:48:25.534751+00:00",
+  "fleet_size": 2,
   "healthy": 0,
   "employees": [
     {
@@ -15,7 +15,22 @@
       "issues": [
         "source is a skeleton (29 TODO/stub markers) \u2014 cannot produce real output",
         "state shows zero output ever produced",
-        "last output 20d ago \u2014 overdue (expected every 7d)"
+        "last output 21d ago \u2014 overdue (expected every 7d)"
+      ]
+    },
+    {
+      "id": "email-admin",
+      "name": "Email Admin (inbox triage + draft)",
+      "role": "Reads every incoming email, drafts replies for human-needed mail, flags bills/compliance, lists marketing to unsubscribe",
+      "status": "DEAD",
+      "healthy": false,
+      "last_run": null,
+      "produced_output": false,
+      "cadence_days": 1,
+      "issues": [
+        "source is a skeleton (4 TODO/stub markers) \u2014 cannot produce real output",
+        "no state file \u2014 worker has never recorded a run",
+        "no real last-run timestamp"
       ]
     }
   ]
