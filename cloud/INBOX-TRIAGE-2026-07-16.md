@@ -271,3 +271,29 @@ occasional client mail. Will keep going in passes until the admin is live.
 > mother-in-law can see exactly what's covered for tiles etc. [CONFIRM: attach/insert
 > measured dimensions] I'll send those through shortly.
 > Thanks, Brad
+
+### Draft 9 — Bindelong Corp / Ashley (Boolaroo depot)
+> To: bindelongcorp@gmail.com
+> Subject: RE: Request for Quote — internal walls + powerpoints, Boolaroo depot
+> Hi Ashley, thanks for reaching out. Happy to quote the internal walls and powerpoints at
+> your Boolaroo depot. What days/times suit for a quick site look so I can measure up and get
+> you an accurate price? I'll bring everything needed to turn it around fast.
+> Thanks, Brad Robinson · Koori Constructions · 0448 368 354
+
+### Draft 10 — James Ahoy (extension + ensuite)
+> To: bubbajra@yahoo.com.au
+> Subject: RE: Quote for extension
+> Hi James, thanks for getting in touch (and the number — 0407 470 965). An added room +
+> ensuite plus an open-plan living/kitchen extension is right in our wheelhouse. When suits
+> for a site inspection so I can scope it properly and get you a quote? I'll confirm a time.
+> Thanks, Brad Robinson · Koori Constructions
+
+### Draft 11 — Katie Carlisle (7 Quinton Close plans)
+> To: katie.carlisle13@gmail.com
+> Subject: RE: Plans for 7 Quinton Close
+> Hi Katie, got the plans through, thanks — noted the deck's existing and the pool/retaining
+> wall are out of the current scope. I'll work through them and come back with any questions
+> and a quote. I'll be in touch shortly.
+> Thanks, Brad Robinson · Koori Constructions
+
+_All three cross-checked against Sent — no prior reply exists, so these are new (not dupes)._
