@@ -157,3 +157,52 @@ actions (or set Outlook rules to auto-file):
   (Indigenous business network).
 
 **Keep (do not unsub):** icare NSW, EstimateOne (tender leads), Xero, Anthropic.
+
+---
+
+# BATCH 2 — deeper triage (13–14 Jul, ~150 of 955 covered)
+
+## 💰 Accepted quotes needing deposit invoices / next step (money on the table)
+- **Awabakal Medical Centre vinyl (Q10935)** — accepted (see Batch 1, deposit due).
+- **Natsuko — Q1167 Deck & Pergola** — quote digitally signed/accepted (Buildxact). Raise deposit + schedule.
+- **"Quote – ensuite – West Wallsend"** — ACCEPTED (terryanne71@outlook.com). Raise deposit, book in.
+- **"Quote – Deck Wyee"** — ACCEPTED (dani.frazer@frazerhansen.com.au). Raise deposit, book in.
+- **Tori Burns — Q1139 Bathroom** — quote sent; chase for decision.
+
+## 🏗️ New opportunities / quotes to prepare (unactioned)
+- **Awabakal — Glendale preschool floor plans** — Donna Smith (dsmith@awabakal.org, GM Preschools, 0403 717 209): "plans attached, call me anytime." Warm repeat client — reply + quote.
+- **Precise Build — 47–49 Deane St, Belmont (Stratco outback awnings ×2)** — Tim sent plans for a quote. Prepare.
+- **33 Cowper St, Wallsend (Stratco awning)** — Simon Entwistle (Stratco) supplied lineal-metre pricing ($48/lm). You're mid-quote; finish it.
+- **Tayla — Q1136 Laundry Reno** — client's MIL wants laundry + bathroom measurements before deciding. Send measurements.
+
+## ⚖️ Liability / legal — watch closely
+- **738 Jilliby Rd — "Damage to Kitchen Cabinetry – Notice of Liability & Request for Indemnification"** (via ServiceM8 / Levant Central, Portia Brown, WO 9318). You've responded and requested particulars; Portia will revert. Keep a paper trail — this is a formal claim.
+
+## 📑 Tenders needing a QUOTING / NOT-QUOTING decision
+- **Muswellbrook High School – Internal Refurbishments** (Rogers Construction, via EstimateOne).
+- **Greta Central Oval** (Kingston Building, via EstimateOne).
+
+## 🤖 Your existing AI fleet (JARVIS) — noise + signal
+- **[JARVIS] digests #17–29** report "8 employees running, ~20–107 artifacts/day" and route "decisions waiting" to you by email. So your fleet IS producing — but its digests + the QA-test self-leads (`qa-test@`, `KC-2026-…`) + marketing are burying real client mail. **Recommendation:** the Email Admin should (a) auto-file JARVIS digests to a "Fleet" folder, (b) suppress QA/test leads, so your inbox shows only real humans.
+
+## Coverage note
+Triaged the most-recent **~150 of 955** inbox emails (back to ~13 Jul). The remaining
+~800 are, on a consistent read, the same three noise buckets (JARVIS digests, QA-test
+self-leads, marketing) plus occasional client mail. The standing Email Admin will sweep
+the full tail once activated; I can also keep hand-triaging deeper on request.
+
+## Extra draft replies
+### Draft 7 — Awabakal / Glendale (Donna Smith)
+> To: dsmith@awabakal.org
+> Subject: RE: Glendale floor plans
+> Hi Donna, thanks for sending the Glendale plans through. I'll review them and come back
+> to you with any questions and a quote shortly — I'll give you a call this week too.
+> Thanks, Brad Robinson · Koori Constructions
+
+### Draft 8 — Tayla / Q1136 (measurements)
+> To: yourgirltayla@gmail.com
+> Subject: RE: Q1136 – Laundry Renovations – Quote
+> Hi Tayla, no problem — I'll get the laundry and bathroom measurements to you so your
+> mother-in-law can see exactly what's covered for tiles etc. [CONFIRM: attach/insert
+> measured dimensions] I'll send those through shortly.
+> Thanks, Brad
