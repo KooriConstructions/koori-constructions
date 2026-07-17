@@ -56,6 +56,29 @@ rotation, video/UGC-first, hard risk-reversal. **Koori can run this exact playbo
 (Toni + the fleet) rather than pay an agency — and Koori has a hook Kloud's clients don't:
 **100% Aboriginal-owned + IPP**.
 
+## Their lead system — "Tradie Elevation System" (from their site/web)
+_Verified from web search of kloudmedia.com.au; the site + FB/IG are bot-blocked, so the
+funnel mechanics below the case-study line are the standard model for this niche (flagged)._
+- **Positioning:** trades-only agency, "**100+ case studies**"; promise = help renovation
+  tradies **double revenue, grow the team, get off the tools**. Target = tradies who **tried
+  their own FB/IG ads and it didn't work**.
+- **Named the offer:** "**Tradie Elevation System**" → book a **strategy call**.
+- **Real case-study number they publish:** a painter — **42 qualified leads at $39.62/lead,
+  $1,664 spend**. (This is how they prove ROI: leads + cost-per-lead.)
+
+### The content they actually make for trade clients (model)
+Short-form **video, local + UGC style**: real job footage, **before/after** transformations,
+**owner talking-head + customer testimonials**, and "**$X in Y months**" case-study reels —
+built as direct-response to pull quote leads. (Their clients' ads run under the clients' own
+Meta pages, so not directly viewable; their own reels + the model above show the template.)
+
+### How they structure/set up the leads (funnel — standard model, inferred)
+Ad (video hook + local offer) → **Meta instant lead form OR a landing page** → **CRM
+(GoHighLevel is the near-universal tool for this niche)** → **instant speed-to-lead SMS +
+email** → qualifying questions → **booked strategy/quote call on a calendar**. Performance
+tracked on **leads + cost-per-lead** (their $39.62 figure), with Meta Pixel/CAPI for
+conversions. Couldn't confirm their exact tools — site is Cloudflare-blocked.
+
 ## Watch the actual videos yourself
 Direct Ad Library link to all 23 of their ads (incl. the reels — viewable in your browser):
 `https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=AU&view_all_page_id=102515258089553`
