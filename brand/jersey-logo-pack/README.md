@@ -15,6 +15,21 @@ embroidery, screen printing, training polos, caps and socks.
 | `KC_logo_one-colour_black.svg` / `.png` | Same knockout artwork in black, for light or gold garments. |
 | `preview_jersey-colours.png` | Mockups of each variant on navy, maroon, white and gold so the club can pick at a glance. |
 
+## Versions with the Aboriginal artwork (shaped, not rectangular)
+
+| File | What it is |
+|---|---|
+| `KC_logo_art-roof.png` | The standard logo with the artwork filling the roof instead of flat black (darkened so the flag and rooflines still read). Same badge silhouette as the plain logo. |
+| `KC_logo_art-badge.png` | The artwork cropped to the house-badge silhouette, sitting behind the logo as a border, with a white keyline. |
+| `KC_logo_art-roundel.png` | Circular crop of the artwork with a white ring and the logo centred — classic sponsor-patch shape. |
+| `preview_art-shapes.png` | All three on navy, maroon and white. |
+
+These are raster-only (the dot artwork can't be vectorised meaningfully) —
+that's fine for sublimated jerseys, which print them like a photo. **Use them
+at front-centre or back-panel sizes (200 mm+).** At left-chest size the dot
+art turns to visual noise — use the plain logo there instead. They cannot be
+embroidered; embroidery gets the plain or one-colour logo only.
+
 ## Which version on which jersey
 
 - **Dark jerseys (navy, black, dark green):** full-colour with keyline — the
