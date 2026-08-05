@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3292" height="840" viewBox="0 0 3292 840">
+  <path d="M 220 250 L 265.0 250 L 565.0 20 L 865.0 250 L 2872 250" fill="none" stroke="#00B2FF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 435.0 250 L 565.0 130 L 695.0 250" fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1060" cy="250" r="13" fill="#000000"/>
+<circle cx="1210" cy="250" r="13" fill="#000000"/>
+<circle cx="1360" cy="250" r="13" fill="#000000"/>
+<circle cx="1510" cy="250" r="13" fill="#000000"/>
+<circle cx="1660" cy="250" r="13" fill="#000000"/>
+<circle cx="1810" cy="250" r="13" fill="#000000"/>
+<circle cx="1960" cy="250" r="13" fill="#000000"/>
+<circle cx="2110" cy="250" r="13" fill="#000000"/>
+<circle cx="2260" cy="250" r="13" fill="#000000"/>
+<circle cx="2410" cy="250" r="13" fill="#000000"/>
+<circle cx="2560" cy="250" r="13" fill="#000000"/>
+<circle cx="2710" cy="250" r="13" fill="#000000"/>
+  <circle cx="3042" cy="250" r="30" fill="#00B2FF"/>
+  <circle cx="3042" cy="250" r="64" fill="none" stroke="#000000" stroke-width="14"/>
+  <text x="220" y="700" font-family="Anton" font-size="310" letter-spacing="6" fill="#00B2FF">KOORI</text>
+  <text x="1000" y="700" font-family="Anton" font-size="310" letter-spacing="6" fill="#000000">CONSTRUCTIONS</text>
+</svg>

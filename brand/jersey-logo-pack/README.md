@@ -30,6 +30,24 @@ at front-centre or back-panel sizes (200 mm+).** At left-chest size the dot
 art turns to visual noise — use the plain logo there instead. They cannot be
 embroidered; embroidery gets the plain or one-colour logo only.
 
+## V2 treatments and new logo concepts (for review)
+
+| File | What it is |
+|---|---|
+| `KC_wordmark_art-fill_dark/light.png` | "KOORI" in heavy type filled with the real commissioned artwork, "CONSTRUCTIONS" letter-spaced beneath. Built for the back of a jersey. |
+| `KC_arc-roofline_dark/light.png` | The artwork clipped into a sweeping arc — reads as both a roofline and the journey line from the painting — over a solid wordmark. |
+| `concept_meeting-place_dark/light.svg/.png` | **New logo concept:** meeting-place symbol (concentric circles) sheltered under a bold double gable with the Aboriginal flag — stacked lockup. Vector. |
+| `concept_journey-roofline_dark/light.svg/.png` | **New logo concept:** one-line wordmark where a journey line rises into a double gable over "KOORI" and travels out to a meeting place. Vector. |
+| `preview_v2-and-concepts.png` | All four on navy and white. |
+
+The two concepts are drafts for discussion — before adopting any new mark
+that draws on Aboriginal symbols (meeting place, journey lines), run it past
+the artist who painted the commissioned artwork / community, as a matter of
+cultural respect and so the symbolism is right.
+
+Fonts used (all free, Google Fonts): Anton, Archivo Black, Barlow Condensed,
+Montserrat.
+
 ## Which version on which jersey
 
 - **Dark jerseys (navy, black, dark green):** full-colour with keyline — the
